@@ -1,0 +1,30 @@
+
+.panel ul{
+	margin: 0px;
+	padding: 0;
+}
+.panel ul li,.panel ul li a,article ul li,article a{
+	margin: 0px;
+	list-style: none;
+	color: #000;
+}
+.c ul li{
+	border-bottom: 1px dotted;
+}
+.c ul li a{
+	color: #6CF;
+}
+#login-form{
+	border: 1px solid gray;
+	padding: 20px;
+	
+	border: 1px solid #e5e5e5;
+	
+	border-radius: 5px;
+	
+	-webkit-box-shadow: #999 0 5px 20px -1px;
+	-moz-box-shadow: /*rgba(200,200,200,0.7)*/#999 0 5px 20px -1px;
+	-ms-box-shadow: /*rgba(200,200,200,0.7)*/#999 0 5px 20px -1px;
+	-o-box-shadow: /*rgba(200,200,200,0.7)*/#999 0 5px 20px -1px;
+	box-shadow: /*rgba(200,200,200,0.7)*/#999 0 5px 20px -1px;
+}

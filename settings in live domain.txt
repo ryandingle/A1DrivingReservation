@@ -1,0 +1,24 @@
+CHANGE THIS SETTING WHEN SITE READY TO VIEW ONLINE.
+
+______________________________________________________________
+
+path1 : application/config/config.php
+
+change = $config['base_url'] = 'http://localhost/a1driving'; 
+to     = $config['base_url'] = 'http://yourdomain.com';
+
+______________________________________________________________
+
+path2 : application/config/database.php
+
+change = $db['default']['hostname'] = 'localhost';
+	 $db['default']['username'] = 'root';
+	 $db['default']['password'] = '';
+	 $db['default']['database'] = 'drivingschool';
+
+to     = $db['default']['hostname'] = 'hostname';
+	 $db['default']['username'] = 'username';
+	 $db['default']['password'] = 'password';
+	 $db['default']['database'] = 'databasename';
+
+______________________________________________________________
